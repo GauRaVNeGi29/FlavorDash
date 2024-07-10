@@ -12,14 +12,36 @@ import img9 from "../images/pasta.jpg";
 import img10 from "../images/pizza.jpg";
 import img11 from "../images/lasagna.jpg";
 import img12 from "../images/noodles.jpg";
-import img14 from "../images/roll.jpg";
-import img15 from "../images/chilli.jpg";
-import img13 from "../images/momo.jpg";
+import img13 from "../images/roll.jpg";
+import img14 from "../images/chilli.jpg";
+import img15 from "../images/momo.jpg";
 import img16 from "../images/rasmalai.jpg";
 import img17 from "../images/rasgulla.jpg";
 import img18 from "../images/kaju.jpg";
 import img19 from "../images/jalebi.jpg";
 import img20 from "../images/gulab.jpg";
+
+import vdo1 from "../videos/biryani.mp4"
+import vdo2 from "../videos/dosa.mp4"
+import vdo3 from "../videos/uttapam.mp4"
+import vdo4 from "../videos/idli.mp4"
+import vdo5 from "../videos/chole.mp4"
+import vdo6 from "../videos/rajma.mp4"
+import vdo7 from "../videos/tikka.mp4";
+import vdo8 from "../videos/aloo.mp4";
+import vdo9 from "../videos/pasta.mp4";
+import vdo10 from "../videos/pizza.mp4";
+import vdo11 from "../videos/lasagna.mp4";
+import vdo12 from "../videos/noodles.mp4";
+import vdo13 from "../videos/roll.mp4";
+import vdo14 from "../videos/chilli.mp4";
+import vdo15 from "../videos/momo.mp4";
+import vdo16 from "../videos/rasmalai.mp4";
+import vdo17 from "../videos/rasgulla.mp4";
+import vdo18 from "../videos/kaju.mp4";
+import vdo19 from "../videos/jalebi.mp4";
+import vdo20 from "../videos/gulab.mp4";
+
 
 
   const foodCategories = [
@@ -27,6 +49,7 @@ import img20 from "../images/gulab.jpg";
       category: "South Indian",
       items: [
         {
+          video: vdo1,
           description: "",
           name: "Biryani",
           price: "$10",
@@ -34,7 +57,8 @@ import img20 from "../images/gulab.jpg";
           image: img1,
           link: "/biryani"
         },
-        {
+        { 
+          video: vdo2,
           description: "",
           name: "Dosa",
           price: "$8",
@@ -43,6 +67,7 @@ import img20 from "../images/gulab.jpg";
           link: "/dosa"
         },
         {
+          video: vdo3,
           description: "",
           name: "Uttapam",
           price: "$7",
@@ -51,6 +76,7 @@ import img20 from "../images/gulab.jpg";
           link: "/uttapam"
         },
         {
+          video: vdo4,
           description: "",
           name: "Idli",
           price: "$4",
@@ -64,6 +90,7 @@ import img20 from "../images/gulab.jpg";
       category: "North Indian",
       items: [
         {
+          video: vdo5,
           description: "",
           name: "Chole Bathure",
           price: "$5",
@@ -72,6 +99,7 @@ import img20 from "../images/gulab.jpg";
           link: "/Chole_bathure"
         },
         {
+          video: vdo6,
           description: "",
           name: "Rajam Chawal",
           price: "$2",
@@ -80,6 +108,7 @@ import img20 from "../images/gulab.jpg";
           link: "/rajma_chawal"
         },
         {
+          video: vdo7,
           description: "",
           name: "Butter Chicken",
           price: "$7",
@@ -88,6 +117,7 @@ import img20 from "../images/gulab.jpg";
           link: "/butter_chicken"
         },
         {
+          video: vdo8,
           description: "",
           name: "Aloo Paratha",
           price: "$1",
@@ -101,6 +131,7 @@ import img20 from "../images/gulab.jpg";
       category: "Italian",
       items: [
         {
+          video: vdo9,
           description: "",
           name: "Pasta",
           price: "$5",
@@ -109,6 +140,7 @@ import img20 from "../images/gulab.jpg";
           link: "/pasta"
         },
         {
+          video: vdo10,
           description: "Cheesilicious pizzas to make every day extraordinary.",
           name: "Pizza",
           price: "$2",
@@ -117,6 +149,7 @@ import img20 from "../images/gulab.jpg";
           link: "/pizza"
         },
         {
+          video: vdo11,
           description: "",
           name: "lasagna",
           price: "$7",
@@ -130,6 +163,7 @@ import img20 from "../images/gulab.jpg";
       category: "Chinese",
       items: [
         {
+          video: vdo12,
           description: "",
           name: "Noodles",
           price: "$5",
@@ -138,6 +172,7 @@ import img20 from "../images/gulab.jpg";
           link: "/noodles"
         },
         {
+          video: vdo13,
           description: "",
           name: "Spring Roll",
           price: "$2",
@@ -146,6 +181,7 @@ import img20 from "../images/gulab.jpg";
           link: "/spring_roll"
         },
         {
+          video: vdo14,
           description: "",
           name: "Chilli potato",
           price: "$7",
@@ -154,6 +190,7 @@ import img20 from "../images/gulab.jpg";
           link: "/chilli_potato"
         },
         {
+          video: vdo15,
           description: "",
           name: "Momo",
           price: "$4",
@@ -167,6 +204,7 @@ import img20 from "../images/gulab.jpg";
       category: "Desserts",
       items: [
         {
+          video: vdo16,
           description: "",
           name: "Rasmalai",
           price: "$1",
@@ -175,6 +213,7 @@ import img20 from "../images/gulab.jpg";
           link: "/rasmalai"
         },
         {
+          video: vdo17,
           description: "",
           name: "Rasgulla",
           price: "$2",
@@ -183,6 +222,7 @@ import img20 from "../images/gulab.jpg";
           link: "/rasgulla"
         },
         {
+          video: vdo18,
           description: "",
           name: "Kaju Katli",
           price: "$5",
@@ -191,6 +231,7 @@ import img20 from "../images/gulab.jpg";
           link: "/kaju_katli"
         },
         {
+          video: vdo19,
           description: "",
           name: "Jalebi",
           price: "$4",
@@ -199,6 +240,7 @@ import img20 from "../images/gulab.jpg";
           link: "/Jalebi"
         },
         {
+          video: vdo20,
           description: "",
           name: "Gulab Jamun",
           price: "$3",
