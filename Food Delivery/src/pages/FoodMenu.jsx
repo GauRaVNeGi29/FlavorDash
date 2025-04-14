@@ -24,7 +24,7 @@ const FoodMenu = () => {
                       <span className="text-green-800">&#9733;</span> {item.rating} <span className="mx-5">|</span> {item.price}
                     </p>
                       </a>
-                    <a href="/cart" className="block mt-2 text-sm font-semibold text-blue-500 hover:underline">Add to Cart</a>
+                    {/* <a href="/cart" className="block mt-2 text-sm font-semibold text-blue-500 hover:underline">Add to Cart</a> */}
                   </div>
                 </div>
                   </a>

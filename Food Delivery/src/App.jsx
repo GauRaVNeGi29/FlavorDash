@@ -10,31 +10,8 @@ import ItemDetails from "./pages/ItemDetails"
 import Contact from "./pages/Contact"
 
 function App() {
-
-  // const [backendData,setBackendData] = useState([])
-
-  // useEffect(()=>{
-  //   axios.get('/api')
-  //   .then((response)=>{
-  //     setBackendData((response.data))
-  //   })
-  //   .catch((error)=>{
-  //     console.log(error) 
-  //   })
-  // })
-  
   return (
     <>
-    {/* <h1>All Names</h1>
-    <p>person: {backendData.length}</p>
-  
-      {backendData.map((item,index)=>(
-        <div key={item.id}>
-          <h1>{item.name}</h1>
-          <p>{item.content}</p>
-        </div>
-      ))
-      } */}
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage/>}></Route>

@@ -49,6 +49,7 @@ import vdo20 from "../videos/gulab.mp4";
       category: "South Indian",
       items: [
         {
+          value: 0,
           video: vdo1,
           description: "",
           name: "Biryani",
@@ -58,6 +59,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/biryani"
         },
         { 
+          value: 0,
           video: vdo2,
           description: "",
           name: "Dosa",
@@ -67,6 +69,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/dosa"
         },
         {
+          value: 0,
           video: vdo3,
           description: "",
           name: "Uttapam",
@@ -76,6 +79,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/uttapam"
         },
         {
+          value: 0,
           video: vdo4,
           description: "",
           name: "Idli",
@@ -90,6 +94,7 @@ import vdo20 from "../videos/gulab.mp4";
       category: "North Indian",
       items: [
         {
+          value: 0,
           video: vdo5,
           description: "",
           name: "Chole Bathure",
@@ -99,6 +104,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/Chole_bathure"
         },
         {
+          value: 0,
           video: vdo6,
           description: "",
           name: "Rajam Chawal",
@@ -108,6 +114,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/rajma_chawal"
         },
         {
+          value: 0,
           video: vdo7,
           description: "",
           name: "Butter Chicken",
@@ -117,6 +124,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/butter_chicken"
         },
         {
+          value: 0,
           video: vdo8,
           description: "",
           name: "Aloo Paratha",
@@ -131,6 +139,7 @@ import vdo20 from "../videos/gulab.mp4";
       category: "Italian",
       items: [
         {
+          value: 0,
           video: vdo9,
           description: "",
           name: "Pasta",
@@ -140,6 +149,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/pasta"
         },
         {
+          value: 0,
           video: vdo10,
           description: "Cheesilicious pizzas to make every day extraordinary.",
           name: "Pizza",
@@ -149,6 +159,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/pizza"
         },
         {
+          value: 0,
           video: vdo11,
           description: "",
           name: "lasagna",
@@ -163,6 +174,7 @@ import vdo20 from "../videos/gulab.mp4";
       category: "Chinese",
       items: [
         {
+          value: 0,
           video: vdo12,
           description: "",
           name: "Noodles",
@@ -172,6 +184,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/noodles"
         },
         {
+          value: 0,
           video: vdo13,
           description: "",
           name: "Spring Roll",
@@ -181,6 +194,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/spring_roll"
         },
         {
+          value: 0,
           video: vdo14,
           description: "",
           name: "Chilli potato",
@@ -190,6 +204,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/chilli_potato"
         },
         {
+          value: 0,
           video: vdo15,
           description: "",
           name: "Momo",
@@ -204,6 +219,7 @@ import vdo20 from "../videos/gulab.mp4";
       category: "Desserts",
       items: [
         {
+          value: 0,
           video: vdo16,
           description: "",
           name: "Rasmalai",
@@ -213,6 +229,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/rasmalai"
         },
         {
+          value: 0,
           video: vdo17,
           description: "",
           name: "Rasgulla",
@@ -222,6 +239,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/rasgulla"
         },
         {
+          value: 0,
           video: vdo18,
           description: "",
           name: "Kaju Katli",
@@ -231,6 +249,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/kaju_katli"
         },
         {
+          value: 0,
           video: vdo19,
           description: "",
           name: "Jalebi",
@@ -240,6 +259,7 @@ import vdo20 from "../videos/gulab.mp4";
           link: "/Jalebi"
         },
         {
+          value: 0,
           video: vdo20,
           description: "",
           name: "Gulab Jamun",
