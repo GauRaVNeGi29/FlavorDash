@@ -118,7 +118,7 @@ const Cart = () => {
                     </li>
                   ))}
                 </ul>
-                <p className="text-xl font-semibold text-violet-200">Total: ₹{totalPrice.toFixed(2)}</p>
+                {/* <p className="text-xl font-semibold text-violet-200">Total: ₹{totalPrice.toFixed(2)}</p> */}
                 <div className="mt-4">
                   <button
                     onClick={() => setShowModal(false)}
